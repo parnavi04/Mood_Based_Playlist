@@ -1,39 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood-Based Playlist Generator</title>
-</head>
-<body>
-    <h1>Mood-Based Playlist Generator</h1>
+<h1>Mood-Based Playlist Generator</h1>
+<br>
+<h2>Overview :  </h2>
 
-    <p><strong>Website Overview:</strong></p>
-    <p>This is a simple web application that generates playlists based on the user's mood. The application uses the Spotify API to fetch and display playlists according to the selected moods: <em>Happy</em>, <em>Energetic</em>, <em>Calm</em>, <em>Sad</em>, and <em>Romantic</em>.</p>
+<p>
+    The Mood-Based Playlist Generator is a simple web application that uses the Spotify API to create personalized music playlists based on the user's current mood. The app allows users to select from five predefined moods—Happy, Energetic, Calm, Sad, and Romantic—and generates a playlist with music that fits the selected mood.
 
-    <h2>Technologies Used:</h2>
-    <ul>
-        <li><strong>HTML</strong> - Structure of the web pages</li>
-        <li><strong>CSS</strong> - Styling the web pages</li>
-        <li><strong>JavaScript</strong> - Handling the logic for mood-based playlist generation</li>
-        <li><strong>Node.js</strong> - Backend server to handle the API requests</li>
-        <li><strong>Spotify API</strong> - Fetching playlists based on moods</li>
-    </ul>
+</p>
 
-    <h2>Features:</h2>
-    <ul>
-        <li>Select your current mood from a list of available moods.</li>
-        <li>Get a playlist curated by Spotify based on the chosen mood.</li>
-        <li>Simple and intuitive interface to enhance user experience.</li>
-    </ul>
-
-    <h2>How to Run the Application:</h2>
+<h3>Features: </h3>
+<ul>
+    <li>Mood Selection: Choose from five moods: Happy, Energetic, Calm, Sad, and Romantic.
+</li>
+    <li>Spotify Integration: Fetches playlists from Spotify based on the chosen mood.
+</li>
+    <li>User-Friendly Interface: Clean and simple UI for easy navigation.
+</li>
+</ul>
+<h2>Tech Stack </h2>
+<ul>
+    <li>Frontend: HTML, CSS, JavaScript</li>
+    <li>Backend: Node.js</li>
+    <li>Spotify API: Used for fetching music playlists based on mood.</li>
+</ul>
+<h2>How to Run the Application:</h2>
     <p>Follow these steps to get the app running locally:</p>
     <ol>
         <li>Clone this repository:</li>
         <pre><code>git clone https://github.com/parnavi04/Mood_Based_Playlist.git</code></pre>
         
-        <li>Navigate into the project folder:</li>
+        Navigate into the project folder:
         <pre><code>cd Mood_Based_Playlist</code></pre>
         
         <li>Install dependencies:</li>
@@ -53,8 +48,5 @@ SPOTIFY_REDIRECT_URI=http://localhost:3000/callback</code></pre>
     <h2>Contributing:</h2>
     <p>Feel free to fork this repository, make changes, and submit a pull request!</p>
 
-    <h2>License:</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+  
 
-</body>
-</html>
